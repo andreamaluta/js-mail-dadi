@@ -31,3 +31,22 @@ const guests = ["andreamaluta@mail.com", "mariorossi@mail.com", "giuliocesare@ma
 // chiedo all'utente la sua mail
 let userMail = prompt("Inserisci la tua mail");
 
+// inizializzo una variabile di controllo
+let flag = false;
+
+// costruisco il ciclo per controllare se la mail è presente nella lista
+for(let i=0; i<guests.length; i++){
+    if(guests[i]==userMail){
+        flag = true;
+    }
+}
+
+// stampo se è presente nella lista in base al risultato della variabile di controllo
+//  se flag è true stampo che si è presente sulla lista
+if(flag){
+    console.log("Sei presente sulla lista e puoi entrare");
+}
+// se flag è false stampo che non si è presente sulla lista 
+else{
+    console.log("Non sei presente sulla lista e non puoi entrare");
+}
