@@ -14,3 +14,17 @@ si ma noi cosa vogliamo fare?
 torniamo a scrivere in italiano
 proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 Buon lavoro e buon divertimento!
+
+Esercizio Dadi
+
+1. creo due variabili una per l'utente e una per il computer
+2. salvo nelle due variabili il valore numerico random compreso tra 1 e 6
+3. confronto le due variabili e vedo quale delle due ha il valore più alto
+4. stampo chi vince in base al confronto
+
+Esercizi mail
+
+1. Creo l'array che conterrà le mail
+2. Chiedo all'utente la sua mail tramite prompt e salvo l'informazione in una variabile
+3. tramite un ciclo for controllo che la mail sia presente all'interno dell'array
+4. in base al ciclo e al confronto stampo il messaggio di presenza o assenza 
