@@ -21,3 +21,13 @@ else if(userNum>computerNum){
 else{
     console.log("I due dadi hanno valore uguale. L'utente e il computer hanno pareggiato");
 }
+
+
+// ESERCIZIO DELLE MAIL
+
+// creo l'array che contiene le mail degli invitati
+const guests = ["andreamaluta@mail.com", "mariorossi@mail.com", "giuliocesare@mail.com", "alessandromanzoni@mail.com", "marco.aurelio@mail.com", "giulioferrari@mail.com"];
+
+// chiedo all'utente la sua mail
+let userMail = prompt("Inserisci la tua mail");
+
